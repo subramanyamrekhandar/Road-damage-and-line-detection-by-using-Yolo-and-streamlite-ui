@@ -1,0 +1,16 @@
+necessary instaling libraries
+--> pip install numpy pandas opencv-python matplotlib torch torchvision ultralytics cvzone
+--> pip install streamlit
+--> pip install streamlit-option-menu
+
+Create A Conda Environment and cofigures to activate the Environment ( Anaconda Navigator)
+--> conda create -n yolo_env python=3.8
+--> conda activate yolo_env
+
+Only Run single RoadDamageDetection below command
+--> streamlit run RoadDamageDetection.py
+
+
+Just Run Pipeline to manage the Two features
+---> streamlit run main.py
+
